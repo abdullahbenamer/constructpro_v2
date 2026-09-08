@@ -1,0 +1,58 @@
+I want to stop here, and will move to upgrade the current ConstructPro v1 to v2 , starting with adding Scheduling/WBS, etc ... then later Finance Module that covers Company Costs, like Rents, Transportation, assets, etc ...  and employees Payroll, health care, etc ... 
+
+## CONSTRUCTPRO V2 — INITIAL DIRECTION
+
+The first major expansion will be:
+
+**SCHEDULING / WBS**
+
+* Project scheduling
+* Work Breakdown Structure
+* WBS hierarchy
+* Activities/tasks
+* Dependencies
+* Start/finish dates
+* Duration
+* Milestones
+* Progress
+* Planned vs actual
+* Project schedule
+* Resource assignment
+* Later, Gantt-style visualization
+
+Then we can build the broader:
+
+**FINANCE / COMPANY COSTS**
+
+* Company operating costs
+* Office/site rents
+* Transportation
+* Vehicles
+* Equipment/assets
+* Utilities
+* Communications
+* Insurance
+* General expenses
+* Other overhead
+* Cost allocation where appropriate
+
+And:
+
+**EMPLOYEES / PAYROLL**
+
+* Employees
+* Employment information
+* Salaries
+* Allowances
+* Deductions
+* Payroll periods
+* Payroll processing
+* Leave
+* Attendance
+* Healthcare
+* Employee-related company costs
+* Eventually employee cost allocation to projects
+
+The important architectural point is that **V2 should be designed around Projects + WBS + Resources + Costs + Finance**, rather than simply adding isolated modules one after another. That will matter a lot when we later connect employee, equipment, transportation and company overhead costs to projects.
+
+For now, **V1 is frozen**. I'll wait for your V2 repository. When you send it, we'll first inspect the new baseline and establish exactly where we are before touching anything.

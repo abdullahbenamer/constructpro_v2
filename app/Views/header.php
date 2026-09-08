@@ -543,7 +543,7 @@ $role_name = $_SESSION['role_name'] ?? '';
 
                 <i class="fas fa-city"></i>
 
-                ConstructPro System
+                ConstructPro System Version 2
 
                 <i class="fas fa-drafting-compass"></i>
 
