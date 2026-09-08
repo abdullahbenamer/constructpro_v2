@@ -1,0 +1,19 @@
+WHAT I WOULD KEEP NOW
+
+I would not delete anything immediately because we are preparing for the full test.
+
+Keep:
+
+base_unit
+allow_fraction
+
+Temporarily keep:
+
+sale_unit
+units_per_sale
+price_per_base
+price_per_sale
+
+but consider them legacy/unused POS fields.
+
+Then later, after the full lifecycle test, we can clean them out safely.
